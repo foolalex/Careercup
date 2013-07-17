@@ -1,3 +1,11 @@
+/*
+Write an algorithm such that if an element in an MxN matrix is 0, 
+its entire row and column are set to 0.
+ 
+Date:2013/07/12
+@author Tang Li
+The test result is at the end of this file.
+*/
 package Careercup.ch1;
 import java.util.*;
 
@@ -64,3 +72,45 @@ public class setZeroes_1_7 {
 		}
 	}
 }
+/*
+Test result:
+1   2   3   4   
+5   6   7   8   
+3   0   6   0   
+ 
+1   0   3   0   
+5   0   7   0   
+0   0   0   0   
+ 
+1   0   3   4   
+5   0   7   8   
+3   0   6   0   
+ 
+0   0   0   0   
+0   0   0   0   
+0   0   0   0   
+ 
+1   0   
+1   0   
+ 
+0   0   
+0   0   
+ 
+0   
+ 
+0   
+ 
+1   
+ 
+1   
+ 
+1   0   3   4   
+5   4   7   8   
+3   1   6   2   
+3   6   7   0   
+ 
+0   0   0   0   
+5   0   7   0   
+3   0   6   0   
+0   0   0   0   
+*/
