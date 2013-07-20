@@ -9,7 +9,7 @@ The test result is at the end of this file.
 package Careercup.ch1;
 import java.util.*;
 
-public class setZeroes_1_7 {
+public class SetZeroes_1_7 {
 	public static void main(String[] args) {
 		int[][] a={{1,2,3,4},{5,6,7,8},{3,0,6,0}};
 		int[][] b={{1,0,3,4},{5,0,7,8},{3,0,6,0}};

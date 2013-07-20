@@ -17,17 +17,17 @@ package Careercup.ch2;
 import java.util.Random;
 import Careercup.careerCupLibrary.LinkNode;
 
-public class delNode_2_3 {
+public class DelNode_2_3 {
 	public static void main(String[] args) {
 		LinkNode<Integer> head=new LinkNode<Integer>(null);
 		Random r=new Random();
 		for(int n=1;n<21;n++){
 			LinkNode<Integer> ln=new LinkNode<Integer>(n);			
-			LinkList.addtoList(head,ln);
+			LinkList.addtoList_Singly(head,ln);
 		}
 		System.out.println("Before:"+LinkList.toString(head));
-		System.out.println("The last element is:["+kthToLast_2_2.findKthToLast(head,1).value.toString()+"]");
-		kthToLast_2_2.findKthToLast(head,1).remove();
+		System.out.println("The last element is:["+KthToLast_2_2.findKthToLast(head,1).value.toString()+"]");
+		KthToLast_2_2.findKthToLast(head,1).remove();
 		System.out.println("After delete the last :"+LinkList.toString(head));
 		
 	}

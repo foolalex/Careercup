@@ -13,7 +13,7 @@ package Careercup.ch2;
 import java.util.Random;
 
 import Careercup.careerCupLibrary.LinkNode;
-public class kthToLast_2_2 {
+public class KthToLast_2_2 {
 	
 	public static <E> LinkNode<E>  findKthToLast(LinkNode<E> head,int k){
 		LinkNode<E> target=head;
@@ -34,7 +34,7 @@ public class kthToLast_2_2 {
 		for(int n=1;n<21;n++){
 			//Integer i=new Integer(r.nextInt(10)%10);
 			LinkNode<Integer> ln=new LinkNode<Integer>(n);			
-			LinkList.addtoList(head,ln);
+			LinkList.addtoList_Singly(head,ln);
 		}
 		System.out.println("LinkedList:"+LinkList.toString(head));
 		System.out.println("The 4th to last element is:["+findKthToLast(head,4).value.toString()+"]");

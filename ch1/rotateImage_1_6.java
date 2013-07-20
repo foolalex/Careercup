@@ -19,7 +19,7 @@ Test result:
 */
 package Careercup.ch1;
 
-public class rotateImage_1_6 {
+public class RotateImage_1_6 {
 	public static void main(String[] args) {
 		int[][] a=
 			{

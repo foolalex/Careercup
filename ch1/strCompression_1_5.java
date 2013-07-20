@@ -18,7 +18,7 @@ aa
 */
 package Careercup.ch1;
 
-public class strCompression_1_5 {
+public class StrCompression_1_5 {
 	public static void main(String[] args) {
 		String a="abc";
 		String b="a";

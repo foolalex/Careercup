@@ -15,14 +15,14 @@ package Careercup.ch2;
 import java.util.*;
 import Careercup.careerCupLibrary.LinkNode;
 
-public class delDups_2_1 {
+public class DelDups_2_1 {
 	public static void main(String[] args) {
 		LinkNode<Integer> head=new LinkNode<Integer>(null);
 		Random r=new Random();
 		for(int n=1;n<21;n++){
 			Integer i=new Integer(r.nextInt(10)%10);
 			LinkNode<Integer> ln=new LinkNode<Integer>(i);			
-			LinkList.addtoList(head,ln);
+			LinkList.addtoList_Singly(head,ln);
 		}
 		System.out.println("Before:"+LinkList.toString(head));
 		delDupsA(head);
